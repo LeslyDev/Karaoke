@@ -1,3 +1,8 @@
+package com.karaoke.main;
+
+import com.karaoke.main.Logic;
+import com.karaoke.main.Sound;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
@@ -22,7 +27,7 @@ public class Karaoke extends JPanel implements ActionListener{
     private boolean songIsStart = false;
     private Image backgroundImage;
 
-    Karaoke() {
+    public Karaoke() {
         setLayout(null);
         try {
             backgroundImage = ImageIO.read(new File("./picture.jpg"));

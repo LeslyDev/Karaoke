@@ -1,3 +1,7 @@
+package com.karaoke;
+
+import com.karaoke.main.Karaoke;
+
 import javax.swing.*;
 
 public class MainWindow extends JFrame {
